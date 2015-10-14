@@ -68,7 +68,7 @@ Try running this query:
 
 ~~~
 {
-  recivedMessage: echo(message: "Hello")
+  receivedMessage: echo(message: "Hello")
 }
 ~~~
 
@@ -77,7 +77,7 @@ You'll get a result like:
 ~~~
 {
   "data": {
-    "recivedMessage": "received Hello"
+    "receivedMessage": "received Hello"
   }
 }
 ~~~
