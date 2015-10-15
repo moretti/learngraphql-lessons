@@ -63,7 +63,7 @@ points: 20
 Now we are going to write our first mutation. It's a mutation to add a new post to our blog. So, this is the mutation request we are going to invoke:
 
 ~~~
-mutation insertFirstPost() {
+mutation insertFirstPost {
   post: createPost(
     title: "GraphQL is Awesome",
     content: "Yep, it's purely awesome."
